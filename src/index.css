@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;400;600;700&family=Rye&family=Smokum&display=swap');/*OVERALL STYLING*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*WELCOME PAGE*/
+.h1Welcome {
+    font-family: 'Rye', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.h2Welcome {
+    font-family:'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.h3Welcome {
+    font-family:'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.pWelcome {
+    font-family:'Josefin Slab', serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
